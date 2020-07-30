@@ -65,11 +65,8 @@ def main():
 
         try:
             input_data = str(inputText)
-			y = generateUwU(input_data)
+	    	y = generateUwU(input_data)
             
-			
-            x_input = [y]
-			
             show_output(y)
 
         except:
