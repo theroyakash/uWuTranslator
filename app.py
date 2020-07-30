@@ -54,18 +54,17 @@ def main():
     st.markdown("<hr>", unsafe_allow_html=True)
 
     st.text("""""")
-    inputText = st.text_input("Your Input ⭕", 'Nooo ! I was not late to work')
+    inputText = st.text_input("Your Input", 'Nooo ! I was not late to work')
     st.text("""""")
 
     st.text("""""")
     unleashed = st.button("Unleash the uWu dog")
 
     if unleashed:
-        input_data = ''
-
+	
         try:
             input_data = str(inputText)
-	    y = generateUwU(input_data)
+	    y = generateUwU.generateUwU(input_data)
             
             show_output(y)
 
