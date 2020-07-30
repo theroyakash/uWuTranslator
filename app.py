@@ -65,7 +65,7 @@ def main():
 
         try:
             input_data = str(inputText)
-	    	y = generateUwU(input_data)
+	    y = generateUwU(input_data)
             
             show_output(y)
 
