@@ -11,7 +11,7 @@ def show_output(final_pred):
 	"""
 	)
 
-	st.text(final_pred)
+	st.markdown(f'#### {final_pred}')
 
 	st.write(
 	"""
